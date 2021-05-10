@@ -4,7 +4,10 @@
   "description": "meu primeiro app node",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/gustavoalves30/aula2/issues"
   },
-  "homepage": "https://github.com/gustavoalves30/aula2#readme"
+  "homepage": "https://github.com/gustavoalves30/aula2#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
